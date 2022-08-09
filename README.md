@@ -11,4 +11,4 @@ In this project i used below `tech stack` to build headphone selling company sta
 
 ![project-07](./images/project-07.png)
 
-live-link : [headphone-landing-page]()
+live-link : [headphone-landing-page](https://headphone-project-07.netlify.app/)
