@@ -6,6 +6,7 @@ In this project i used below `tech stack` to build headphone selling company sta
 - CSS3
   - used flexbox
   - used Absolute and Relative position to place html elements
+  - landing page is made responsive using media queries
 
 > Here's the glimpse pic of project
 

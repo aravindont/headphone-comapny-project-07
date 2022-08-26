@@ -6,7 +6,7 @@
 
 /* NAVBAR **********************************************************************/
 
-nav {
+.nav-bar {
     padding: 3rem 2rem 3rem 2rem;
     width: 100%;
     height: 10vh;
@@ -14,7 +14,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-items {
     margin-left: 6rem;
     display: flex;
@@ -32,11 +31,11 @@ nav {
     color: #fe5e35;
 }
 
-nav img:nth-child(1) {
+.logo {
     width: 10%;
 }
 
-nav img:nth-child(3) {
+.user-img {
     width: 28%;
 }
 
@@ -47,6 +46,7 @@ nav img:nth-child(3) {
 .intro-section {
     padding: 1rem 2rem 3rem 2rem;
     display: flex;
+    flex-direction: row;
 }
 
 .left-section {
@@ -193,4 +193,38 @@ nav img:nth-child(3) {
     border: none;
     background: #fe5e35;
     color: #fff;
+}
+
+@media screen and (max-width:600px) 
+{
+    .nav-bar{
+        padding: 4rem 1rem;
+    }
+    .nav-items{
+        display: none;
+    }
+    .logo{
+        width: 30%;
+    }
+    .user-img{
+        width: 80%;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
+    }
+    .discount{
+        left:1rem;
+        top: 12rem;
+        width: 8rem;
+    }
+    .discount-content h4{
+        font-size: 1rem;
+        left:3rem;
+        top:14rem;
+    }
+    .discount-content h1{
+        left: 2rem;
+        top: 15rem;
+
+    }
 }
